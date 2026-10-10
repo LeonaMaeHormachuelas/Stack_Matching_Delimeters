@@ -1,0 +1,21 @@
+Matching Delimiters Checker with Stack Trace  (type 'exit' to quit)
+Enter sequence: 
+Input: {[(])}
+--------------------------------------------
+Read: {
+Operation: PUSH {
+Stack: {
+Read: [
+Operation: PUSH [
+Stack: { [
+Read: (
+Operation: PUSH (
+Stack: { [ (
+Read: ]
+Operation: PEEK -> (
+Stack: { [ (
+Reason: mismatched delimiters - ']' does not match the top of the stack '('
+--------------------------------------------
+Result: Invalid
+
+Enter sequence: 

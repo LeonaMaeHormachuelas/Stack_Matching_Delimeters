@@ -1,0 +1,20 @@
+INPUT: [()]
+Enter sequence: Result: Valid
+INPUT: [()[]{}]
+Enter sequence: Result: Valid
+INPUT: [{[()]}]
+Enter sequence: Result: Valid
+INPUT: [({[]})]
+Enter sequence: Result: Valid
+INPUT: [{[(])}]
+Enter sequence: Result: Invalid - mismatched delimiters: ']' at position 4 does not match the top of the stack '('
+INPUT: [([)]]
+Enter sequence: Result: Invalid - mismatched delimiters: ')' at position 3 does not match the top of the stack '['
+INPUT: [{[()]]
+Enter sequence: Result: Invalid - unmatched opening delimiter remains: '{'
+INPUT: [{[()]}]]
+Enter sequence: Result: Invalid - closing delimiter ']' at position 7 has no matching opening delimiter
+INPUT: []
+Enter sequence: Result: Valid
+INPUT: [((a+b)*[c-d])]
+Enter sequence: Result: Valid

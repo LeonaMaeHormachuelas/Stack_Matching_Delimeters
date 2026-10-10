@@ -1,0 +1,31 @@
+Matching Delimiters Checker with Stack Trace  (type 'exit' to quit)
+Enter sequence: 
+Input: {[()]}
+--------------------------------------------
+Read: {
+Operation: PUSH {
+Stack: {
+Read: [
+Operation: PUSH [
+Stack: { [
+Read: (
+Operation: PUSH (
+Stack: { [ (
+Read: )
+Operation: PEEK -> (
+Operation: POP (  ('(' matches ')')
+Stack: { [
+Read: ]
+Operation: PEEK -> [
+Operation: POP [  ('[' matches ']')
+Stack: {
+Read: }
+Operation: PEEK -> {
+Operation: POP {  ('{' matches '}')
+Stack: (empty)
+End of input. isEmpty -> true
+Stack: (empty)
+--------------------------------------------
+Result: Valid
+
+Enter sequence: 
